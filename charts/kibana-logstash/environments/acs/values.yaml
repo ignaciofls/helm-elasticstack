@@ -26,6 +26,7 @@ kibana:
       key:
 
 logstash:
+  install: false
   image:
     repository: mseoss/logstash
     tag       : 6.4.3
